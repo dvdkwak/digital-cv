@@ -1,0 +1,40 @@
+{#
+/**
+ * @file
+ * basic page which will be rendered when no other pages are available.
+ * in here the regions are structured.
+ */
+#}
+
+<div id="page-wrapper">
+
+  {# Basic page header #}
+  <div class="header">
+    {{ page.header }}
+    {{ page.primary_menu }}
+  </div>
+
+  {% if page.above_content %}
+    <div class="basic-page-above-content">
+      {{ page.above_content }}
+    </div>
+  {% endif %}
+
+  {% if page.content %}
+    <div class="basic-page-content">
+      {{ page.content }}
+    </div>
+  {% endif %}
+
+  {% if page.below_content %}
+    <div class="basic-page-below-content">
+      {{ page.below_content }}
+    </div>
+  {% endif %}
+
+  {% if page.footer %}
+    <div class="basic-page-footer">
+      {{ page.footer }}
+    </div>
+  {% endif %}
+</div>

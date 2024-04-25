@@ -1,0 +1,15 @@
+name: Portfolio
+type: theme
+base theme: false
+description: Theme for the portfolio website of David Kwakernaak.
+package: Custom
+core_version_requirement: ^9 || ^10
+libraries:
+  - portfolio/global-styling
+regions:
+  header: 'Header'
+  featured: 'Featured'
+  above_content: 'Above Content'
+  content: 'Content'
+  below_content: 'Below Content'
+  footer: 'Footer'

@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
+langcode: en-gb
+uuid: 8d53f823-9922-409a-be47-4deb0db8f6fb
+name: portfolio
+mail: dvdkwak@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en-gb
+mail_notification: ''

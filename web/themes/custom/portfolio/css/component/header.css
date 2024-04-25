@@ -1,0 +1,13 @@
+.dp_header {
+    background: rgb(146, 102, 194);
+    color: white;
+    position: sticky;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 999px;
+    width: 95vw;
+    max-width: 1000px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+}

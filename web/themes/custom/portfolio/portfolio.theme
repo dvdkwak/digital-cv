@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Function to support theming in the portfolio theme.
+ * Theme is the base theme of the portfolio website of David Kwakernaak.
+ */
+
+/**
+ * hook_preprocess_HOOK
+ * Preprocessing the theme, give it a status code as twig variable.
+ */
+function portfolio_preprocess_html(&$variables) {
+    // Get the current response object.
+    $exception = \Drupal::requestStack()->getCurrentRequest()->attributes->get('exception');
+    if($exception) {
+        $variables['got_exception'] = true;
+    }
+}

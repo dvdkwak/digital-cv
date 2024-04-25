@@ -1,0 +1,6 @@
+global-styling:
+  css:
+    theme:
+      css/base/base.css: {}
+      css/component/header.css: {}
+      css/layout/error-page.css: {}

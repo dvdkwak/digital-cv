@@ -1,0 +1,11 @@
+/* ERROR PAGE CSS */
+body.dp-error-page {
+    background: rgb(119, 174, 237);
+    color: white;
+}
+
+.not-found-page {
+    margin-top: 20vh;
+    width: 100%;
+    text-align: center;
+}
