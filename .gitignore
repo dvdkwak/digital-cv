@@ -57,6 +57,7 @@ web/modules/contrib
 
 # Ignoring default data-folder (has nothing to do with the project)
 data
+!data/data/*
 
 # Vscode settings
 .vscode
